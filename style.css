@@ -40,6 +40,9 @@ h2{
   text-align:center;
 }
 .team{
+  width:50%;
+}
+.team-image{
   border-radius:5px;
   width:100%;
 }
