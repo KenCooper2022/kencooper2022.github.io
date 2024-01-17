@@ -11,6 +11,7 @@ body{
 .banner{
   object-fit:cover;
 }
+
 .logo{
   height:30px
 
@@ -39,10 +40,8 @@ h2{
   text-align:center;
 }
 .team{
-  
-  object-fit:fill;
-  size:400px;
-  width:400px;
+  border-radius:5px;
+  width:100%;
 }
 
 h1{
