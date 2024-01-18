@@ -43,6 +43,7 @@ h2{
   width:50%;
 }
 .team-image{
+  object-fit:contain;
   border-radius:50px;
   width:100%;
 }
@@ -59,9 +60,7 @@ h1{
 .banner{
   width:100%
 }
-.location{
-  color:gray;
-}
+
 a{
   text-decoration:none;
 }
@@ -75,11 +74,13 @@ a{
 .footer-links{
   list-style:none;
   text-align:center;
-
-
 }
 .footer-links li{
   display:inline;
   margin: 0 16px;
+
+}
+#jobs-table{
+  width:200%;
 
 }
