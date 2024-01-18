@@ -33,7 +33,7 @@ ol li{
 .description{
   text-align: left;
   width:50%;
-  padding-left:15%
+  padding-left:10%
   
 }
 h2{
@@ -43,7 +43,7 @@ h2{
   width:50%;
 }
 .team-image{
-  border-radius:5px;
+  border-radius:50px;
   width:100%;
 }
 
