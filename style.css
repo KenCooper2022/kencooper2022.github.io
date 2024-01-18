@@ -82,5 +82,12 @@ a{
 }
 #jobs-table{
   width:200%;
+  border:1px solid gray;
+}
+.jobs-header-row th{
+  border:1px solid gray;
 
+}
+.jobs-data-row td{
+  border:1px solid gray;
 }
