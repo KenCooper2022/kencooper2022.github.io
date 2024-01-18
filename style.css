@@ -89,6 +89,7 @@ a{
 .jobs-header-row th{
   border:1px solid gray;
   padding:8px;
+  background-color:aliceblue;
 
 }
 .jobs-data-row td{
