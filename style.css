@@ -84,11 +84,15 @@ a{
   width:200%;
   border:1px solid gray;
   border-collapse:collapse;
+
 }
 .jobs-header-row th{
   border:1px solid gray;
+  padding:8px;
 
 }
 .jobs-data-row td{
   border:1px solid gray;
+  padding:8px;
+
 }
