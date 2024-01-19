@@ -98,3 +98,21 @@ a{
   padding:8px;
 
 }
+#footer{
+  text-align:center;
+  background-color:aqua;
+  padding: 8px;
+  margin-top:32px;
+  width:900px;
+}
+#footer-links{
+  list-style:none;
+  text-align:center;
+
+
+}
+#footer-links li{
+  display:inline;
+  margin: 16px;
+
+}
