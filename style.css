@@ -32,20 +32,19 @@ ol li{
 }
 .description{
   text-align: left;
-  width:50%;
-  padding-left:10%
+  width:60%;
+  padding-left:10%;
+  padding-right:20%;
   
 }
 h2{
   text-align:center;
 }
 .team{
-  width:50%;
+  width:70%;
 }
 .team-image{
-  object-fit:contain;
-  border-radius:50px;
-  width:100%;
+  width: 60%;
 }
 
 h1{
@@ -81,9 +80,11 @@ a{
 
 }
 #jobs-table{
-  width:75%;
+  width:80%;
   border:1px solid gray;
   border-collapse:collapse;
+  margin-left:10%;
+  margin-bottom:10%;
 
 }
 .jobs-header-row th{
