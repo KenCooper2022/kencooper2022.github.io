@@ -1,9 +1,13 @@
 body{
   margin:0;
   padding:0;
-  font-family:sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
+h1,h2,h3{
+  font-family: 'Inter', sans-serif;
+
+}
 .navbar{
   padding:8px;
   margin:0;
@@ -45,6 +49,10 @@ h2{
 }
 .team-image{
   width: 60%;
+  border-style:groove;
+  border-color:bisque;
+  border: width 3px;
+  border-radius:50px;
 }
 
 h1{
@@ -65,20 +73,12 @@ a{
 }
 .footer{
   text-align:center;
-  background-color: ghostwhite;
+  
   padding: 8px;
   margin-top:32px;
   width:900px;
 }
-.footer-links{
-  list-style:none;
-  text-align:center;
-}
-.footer-links li{
-  display:inline;
-  margin: 0 16px;
 
-}
 #jobs-table{
   width:80%;
   border:1px solid gray;
@@ -90,21 +90,56 @@ a{
 .jobs-header-row th{
   border:1px solid gray;
   padding:8px;
-  background-color:aliceblue;
+  background-color:rgb(179, 232, 193);
+  text-align:left;
+
 
 }
-test
+#jobs-table tr:nth-child(even){
+  background-color:rgb(179, 232, 193);
+}
 .jobs-data-row td{
-  border:1px solid gray;
-  padding:8px;
+  border:1px solid black;
+  padding:10px;
 
 }
 #footer{
   text-align:center;
-  background-color:aqua;
+  background-color: rgb(179, 232, 193);
   padding: 8px;
   margin-top:32px;
-  width:900px;
+  width:auto;
+}
+.form-group{
+  maring:16px 0;
+}
+#application{
+  max-width:800px;
+  margin:0 auto;
+  padding: 0 8px;
+}
+#application-form div{
+  margin:8px;
+}
+#application-form label{
+  font-weight:600;
+  
+}
+.form-group input[type="checkbox"]{
+  width:"16px";
+  height:16px;
+}
+#application-form input,select,textarea{
+  padding:8px;
+  font-size: 1.25rem;
+  margin-top:4px;
+  border-raidus: 5px;
+  border-color:1px solid gray;
+}
+.form-group textarea{
+  width:80%;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 #footer-links{
   list-style:none;

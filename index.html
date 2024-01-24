@@ -6,6 +6,10 @@
     <meta name="author" content="Ken Cooper">
     <meta name="description" content="sample practice website">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 
 
@@ -29,49 +33,114 @@
                 \ Nulla vel ante placerat ligula auctor ultricies.
                 Class aptent taciti sociosqu ad litora torquent per conubia nostra,
                 per inceptos himenaeos. Pellentesque sit amet vulputate lectus.
-               
+
             </p>
-           
+
         </div>
         <div class="team"><img class="team-image" src="download_team.jpg" alt="job opportunites"></div>
     </div>
 
 
     <h2>Job Opportunities</h2>
-    <table border id = "jobs-table">
-        <tr class ="jobs-header-row">
-            <th>Job title</th>
-            <th>Location</th>
-            <th>Salary</th>
-            <th>Posted on </th>
+    <table border id="jobs-table">
+        <tr class="jobs-header-row">
+            <th rowspan="2">Job title</th>
+            <th colspan="2">Location</th>
+            <th rowspan="2">Salary</th>
+            <th rowspan="2">Posted on </th>
+        </tr>
+        <tr class="jobs-header-row">
+            <th>City</th>
+            <th>Country</th>
         </tr>
         <tr class="jobs-data-row">
             <td>Front End Developer</td>
-            <td>Bengaluru, India</td>
+            <td>Bengaluru</td>
+            <td>India</td>
             <td>20,000$</td>
             <td>Mar 3 , 2023 </td>
         </tr>
-        <tr class ="jobs-data-row">
+        <tr class="jobs-data-row">
             <td>Full stack developer</td>
-            <td>Bengaluru, India</td>
+            <td>Bengaluru</td>
+            <td>India</td>
             <td>14,000$</td>
             <td>Feb 3 , 2023 </td>
         </tr>
         <tr class="jobs-data-row"">
             <td>Data scientist</td>
-            <td>San Francisco,USA</td>
+            <td>San Francisco</td>
+            <td>USA</td>
             <td>175,000$</td>
             <td>Jan 22 , 2023 </td>
         </tr>
-        <tr class ="jobs-data-row">
+        <tr class =" jobs-data-row">
             <td>Enginer</td>
-            <td>remote</td>
+            <td colspan="2">remote</td>
             <td>50,000</td>
-            <td>Feb 1 ,2023</td>
+            <td>Feb 12 ,2023</td>
 
         </tr>
 
     </table>
+    <div id="application">
+        <h2>Submit your Application</h2>
+        <!-- Sample form remove later -->
+        <form id = "application-form" action = "https://formbold.com/s/oWqMb" method="post" enctype="multipart/form-data">
+            <div class ="form-group">
+                <label for="name">Full Name</label><br>
+                <input type ="text" id="name" name="Full Name"required placeholder="John Doe">
+
+            </div>
+            <div>
+                <label for ="email">Email</label><br>
+                <input type ="email" id="email" name="Email Address" required placeholder="test@gmail.com">
+            </div>
+            <div>
+                <label for="phone-number">Phone Number</label><br>
+                <input type = "tel" id="phone" name ="Phone Number" required placeholder="+1800230000">
+            </div>
+            <div>
+                <label for="DOB">Date of Birth</label>
+                <input type="date" id="dob" name ="Date-Of-Birth" required>
+            </div>
+            <div class="form-group">
+                <label for = "position">Position Applied for </label>
+                <select id = "position" name ="Position Applied" required>
+                    <option value="">Select Position</option>
+                    <option value="frontend">Frontend Developer</option>
+                    <option value="backend">Full Stack Developer</option>
+                    <option value="data scientist">Data Scientist</option>
+                    <option value="ml engineer">ml engineer</option>
+                </select>
+
+            </div>
+            <div class="form-group">
+                <label for = "resume">Upload Resume</label><br>
+                <input type = "file" id ="resume" name="resume" accept=".
+                pdf,.doc,docx" required>
+            </div>
+            <div class ="form-group">
+                <label for ="coverletter">Cover Letter</label><br>
+                <textarea id ="coverletter" name ="coverletter" rows="5" requied placeholder="Explain what makes you suitable for the job...">
+                </textarea>
+            </div>
+            <div class ="form-group">
+                <label for="form-group">
+                    <input type = "checkbox" id="terms" name="terms" required>
+                    I agree to the terms and conditions
+                </label>
+
+                
+            </div>
+            <div class = "form-group">
+                <input type ="submit" value ="Submit Application">
+                
+            </div>
+
+        </form>
+
+    </div>
     <div id="footer">
         <ul id="footer-links">
             <li>
@@ -92,7 +161,7 @@
         </ul>
         <span class="copyright">© 2023, Jovian </span>
     </div>
-   
+
 
 </body>
 
